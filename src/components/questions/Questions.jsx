@@ -1,0 +1,42 @@
+import { useContext } from "react";
+import { questions } from "../../data";
+import { QuestionContext } from "../../context/QuestionContext";
+import c from "./Questions.module.css";
+
+const Questions = () => {
+  const { state, dispatch } = useContext(QuestionContext);
+
+  const question = questions[state.currentStep];
+
+  const handleAnswer = (answer) => {
+    dispatch({
+      type: "ANSWER",
+      payload: { question: question.title, answer },
+    });
+  };
+
+  return (
+    <section className={c.questions}>
+      <div className={"container"}>
+        <div className={c.innerContainer}>
+          <p
+            className={c.title}
+          >{`Question ${question.count} of ${questions.length}`}</p>
+          <p className={c.text}>{question.title}</p>
+
+          {question.variant.map((option, i) => (
+            <button
+              key={i}
+              onClick={() => handleAnswer(option)}
+              className={c.send}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Questions;

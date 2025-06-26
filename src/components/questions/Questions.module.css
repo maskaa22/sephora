@@ -1,0 +1,31 @@
+.questions {
+  margin: 33px 0 44px 0;
+}
+.innerContainer {
+  border-radius: 28px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  background: #fafafa;
+  padding: 27px 34px;
+}
+.title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.text {
+  font-size: 18px;
+  margin: 12px 0;
+}
+.send {
+  background: #3d3f43;
+  border-radius: 50px;
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 18px;
+}
+.send:last-child {
+  margin-bottom: 0;
+}
