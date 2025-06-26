@@ -1,12 +1,55 @@
-# React + Vite
+# SEPHORA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Вступ
 
-Currently, two official plugins are available:
+Цей проєкт — це React-додаток, який реалізує інтерактивне опитування з плавною анімацією карток, адаптивним хедером з пошуком та навігацією, а також керуванням станом через Context API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Особливості
 
-## Expanding the ESLint configuration
+-   **Плавна анімація появи карток**
+-   **Адаптивний хедер з логотипом, пошуком, навігацією та іконками** 
+-   **Використання React Context API для глобального стану**
+-   **Кастомні хуки для визначення типу пристрою (мобільний/десктоп)** 
+-   **Легка масштабованість і підтримка** 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Технології
+
+-   **React**
+-   **Reducer**
+-   **Custom context**
+-   **Custom hooks**
+
+## 🛠️ Встановлення
+
+Для запуску проекту локально виконайте наступні кроки:
+
+1.  **Клонуйте репозиторій:**
+    ```bash
+    git clone (https://github.com/maskaa22/sephora.git)
+    ```
+
+2.  **Перейдіть до директорії проекту:**
+    ```bash
+    cd sephora
+    ```
+
+3.  **Встановіть залежності:**
+    ```bash
+    npm install
+    # або
+    yarn install
+    ```
+
+4.  **Запустіть додаток:**
+    ```bash
+    npm run dev
+    # або
+    yarn dev
+    ```
+    Додаток буде доступний за адресою `http://localhost:5173`.
+
+## 📧 Контакти
+
+<p>Розробник - Марія Скидан - kyrosika565@gmail.com</p>
+<p>Профіль GitHub - https://github.com/maskaa22</p>
+<p>Профіль LinkedIn - https://www.linkedin.com/in/mariia-skydan</p>
