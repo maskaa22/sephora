@@ -16,7 +16,7 @@
 .search {
   border: 1px solid #3d3f43;
   border-radius: 45px;
-  padding: 7px 11px 7px 10px;
+  padding: 7px 11px 7px 34px;
   width: 161px;
 }
 .searchIcon {
@@ -29,9 +29,9 @@
   left: 10px;
   transform: translateY(-50%);
   pointer-events: none;
+  cursor: pointer;
 }
 .search::placeholder {
-  padding-left: 24px;
   font-size: 14px;
   color: #7a7b7e;
 }
@@ -47,6 +47,18 @@
 .icon {
   width: 24px;
   height: 22px;
+  cursor: pointer;
+}
+.icon:hover {
+  fill: var(--hover-color);
+}
+
+.search:hover,
+.search:focus {
+  border-color: var(--hover-color);
+}
+.searchWrapper:hover > .searchIcon {
+  stroke: var(--hover-color);
 }
 
 @media only screen and (min-width: 1440px) {

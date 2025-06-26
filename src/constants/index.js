@@ -3,3 +3,5 @@ export const initialState = {
   answers: [],
   completed: false,
 };
+
+export const ANSWER = "ANSWER";

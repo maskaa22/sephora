@@ -10,7 +10,7 @@ const Header = () => {
     <header className={c.header}>
       <div className="small-container">
         <div className={c.innerContainer}>
-          <a href="#">
+          <a href="/">
             <img
               src={isMobile ? "/img/logo.png" : "/img/logo-deck.png"}
               alt="SEPHORA"

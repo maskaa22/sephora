@@ -29,3 +29,17 @@
 .send:last-child {
   margin-bottom: 0;
 }
+.send:hover {
+  background-color: var(--hover-color);
+}
+
+.cardEnter {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cardEnterActive {
+  opacity: 1;
+  transform: translateY(0);
+}

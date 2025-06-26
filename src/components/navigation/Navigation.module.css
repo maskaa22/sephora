@@ -21,3 +21,12 @@
   font-size: 10px;
   color: #000;
 }
+.item:hover {
+  .icon {
+    fill: var(--hover-color);
+  }
+  .title,
+  .text {
+    color: var(--hover-color);
+  }
+}

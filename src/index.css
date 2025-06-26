@@ -1,5 +1,6 @@
 :root {
   --font-family: "Roboto", sans-serif;
+  --hover-color: #dec6a3;
 }
 body {
   padding: 0;
@@ -47,6 +48,9 @@ button {
 }
 img {
   margin: 0;
+}
+input {
+  outline: none;
 }
 
 .container {
