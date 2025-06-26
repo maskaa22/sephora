@@ -1,10 +1,10 @@
-import { useMediaQuery } from "react-responsive";
 import c from "./Header.module.css";
 import Navigation from "../navigation/Navigation";
+import { useDecktop, useMobile } from "../../utils/hooks";
 
 const Header = () => {
-  const isDecktop = useMediaQuery({ minWidth: 1440 });
-  const isMobile = useMediaQuery({ maxWidth: 1439 });
+  const isMobile = useMobile();
+  const isDecktop = useDecktop();
 
   return (
     <header className={c.header}>
